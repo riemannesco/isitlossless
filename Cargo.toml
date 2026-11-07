@@ -1,0 +1,18 @@
+[package]
+name = "isitlossless"
+version = "0.1.0"
+edition = "2024"
+description = "Detect lossy audio disguised as FLAC"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/riemannesco/isitlossless"
+rust-version = "1.85"
+readme = "README.md"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+
+
+[dependencies]
